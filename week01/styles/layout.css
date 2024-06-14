@@ -1,0 +1,42 @@
+body {
+    display: grid;
+    height: 100vh;
+    grid-template: 1fr 3fr 1fr / 1000px 1fr;
+  }
+  
+header {
+    background: darkgray;
+    padding: 2rem;
+    grid-column: 1 / 4;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+}
+
+a{
+    flex: 1 1 100%;
+    display: block;
+	color: #eee;
+	padding: 0.75rem;
+    text-decoration: none;
+	text-align: center;
+}
+
+div {
+    background: gray;
+    grid-column: 1 / 2;
+}
+  
+aside {
+    background: white;
+    grid-column: 2 /3;
+}
+  
+  footer {
+    background: darkgray;
+    padding: 2rem;
+    grid-column: 1 / 4;
+  }
+  
